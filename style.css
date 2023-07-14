@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    transform-origin: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background: #ffffff url(./assert/tom\ iage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 553.7px;
+    margin-top: 200px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+.eye {
+    width: 40px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    /* top: 250px; */
+    margin: 30px;
+    padding-left: -200px;
+    text-align: center;
+}
+
+.ball {
+    background: url(./eye\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 30px;
+    top: 1000px;
+    border-radius: 50%;
+}
